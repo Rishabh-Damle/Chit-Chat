@@ -35,12 +35,12 @@ function App() {
       <div className="mt-8 overflow-y-auto">
         {messages.map((message) => (
           <div className="m-10 ">
-            <span className="bg-cyan-100 p-4 m-8 rounded">{message} </span>
+            <span className="bg-neutral-50 p-4 m-8 rounded">{message} </span>
           </div>
         ))}
         <div ref={messagesEndRef} />
       </div>
-      <div className="bg-cyan-100 w-full flex fixed bottom-0">
+      <div className="bg-neutral-50 w-full flex fixed bottom-0">
         {" "}
         <input
           ref={inputRef}
